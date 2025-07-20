@@ -76,9 +76,11 @@ answer = input("What is your answer?")
 
 if answer.strip().upper() == "B":
     print("Correct!")
+    score+= 1
 else:
     print("Incorrect")
 
+print("Your final score is,", score)
             
     
     
